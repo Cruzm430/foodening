@@ -1,0 +1,9 @@
+.sidebar{
+  background:blue;
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+}
+input{
+  height:20px
+}
