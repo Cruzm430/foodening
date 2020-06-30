@@ -7,7 +7,7 @@ import Divider from '../Components/Divider/Divider';
 class Main extends Component{
   render(){
     return(
-      <div>
+      <div className='mt-4'>
         <Nav/>
         <div className='main'>
           <Sidebar/>
