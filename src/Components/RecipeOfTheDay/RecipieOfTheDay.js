@@ -4,6 +4,7 @@ import {Card,Button} from 'react-bootstrap';
 
 const RecipeOfTheDay = (data) =>{
   const recipeOfTheDay = data.data.default.results[9]
+  console.log(recipeOfTheDay)
   return(
     <Card>
       <Card.Header>Here's Recipie Of The Day</Card.Header>
