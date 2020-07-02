@@ -4,14 +4,15 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Welcome from './Pages/Welcome'
-import Navagation from './Components/Navagation/Navagation'
+import Navigation from './Components/Navigation/Navigation'
 
 function App() {
   return (
     <BrowserRouter>
-    <Navagation/>
+    <Navigation/>
     <Welcome/>
     </BrowserRouter>
+   
   );
 }
 
