@@ -24,7 +24,7 @@ class MyRecipes extends Component{
             {
               recipes.map(recipe=>
                 <div className='col-md-4 pb-4' key={recipe.id}>
-                  <Card className='shadow text-center bg-lightmb-4 shadow-sm h-100'>
+                  <Card className='shadow text-center bg-light mb-4 shadow-sm h-100'>
                     <Card.Img className='bd-placeholder-img card-img-top' style={{width:'100%', height:'15vw', objectFit:'cover'}}src={`https://spoonacular.com/recipeImages/${recipe.image}`}/>
                     <Card.Body className='d-flex flex-column'>
                     <Card.Text>{recipe.title}</Card.Text>
